@@ -1,14 +1,10 @@
 Swal.fire({
   width: 300,
-  imageUrl: 'https://images.emojiterra.com/mozilla/512px/1f51e.png',
-  title: 'Site destinado á pessoas que querem parar de fumar',
-  text: 'Você possue 18 anos ou mais?',
+  imageUrl: 'https://img.myloview.com.br/adesivos/luxury-man-perfume-icon-outline-luxury-man-perfume-vector-icon-for-web-design-isolated-on-white-background-700-201985002.jpg',
+  title: 'Site destinado á pessoas cheirosas!',
   
   confirmButtonColor: '#3085d6',
-  cancelButtonColor: '#d33',
-  confirmButtonText: 'Sim',
-  showDenyButton: true,
-  denyButtonText: 'Não',
+  confirmButtonText: 'OK',
 })
 .then((result) => {
   if (result.isConfirmed) {

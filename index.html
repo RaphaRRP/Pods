@@ -15,13 +15,13 @@
             <nav>
                 <ul>
 
-                    <li class="h2"><a href="https://www.instagram.com/" target="_blank"><img src="imagens/svg/instagram.svg" alt=""></a></li>
-                    <li  class="h2 car"><a href="#cart"><img src="imagens/svg/cart-shopping-solid.svg" alt=""></a></li>
+                    <li  class="icon"><a href="#sobre"><img src="imagens/svg/users-solid.svg" alt=""></a></li>
+                    <li class="icon"><a href="https://www.instagram.com/" target="_blank"><img src="imagens/svg/instagram.svg" alt=""></a></li>
+                    <li  class="icon"><a href="#cart"><img src="imagens/svg/cart-shopping-solid.svg" alt=""></a></li>
                 </ul>
             </nav>
         </section>
     </aside>
-
 
     <section class="section grid">
 
@@ -90,7 +90,7 @@
             <button class="btn" onclick="addToCart('la rive absolute - R$160')">R$160</button>
         </div>
 
-        <div>
+        <div  id="cart">
             <img src="https://www.cmoutlet.com.br/uploads/img/catalogo_produtos/1165/ad74e448a188e9b6b2fc75a16799a864.png"></h3>
             <h3 class="grafitepurple">212 vip</h3>
             <button class="btn" onclick="addToCart('212 vip - R$160')">R$160</button>
@@ -98,19 +98,39 @@
         
     </section>
 
-    <div class="pods grafitfinal" id="cart">
+    <section class="pods grafitfinal">
         <div class="lista">
             <p>carrinho: </p> 
             <ul id="cart-items"></ul>
             <button onclick="clearCart()">Limpar Carrinho</button>
-
         </div>
 
         <div class="total">
             <p id="cart-total">Total : R$0</p>
             <button onclick="checkout()">Finalizar Compra</button>
         </div>
-    </div>
+    </section>
+
+    <section class="sobre grafitesobre1" id="sobre">
+        <h1>
+            SOBRE NÓS
+        </h1>
+        <p>
+            <p class="seta">(</p> BEM-VINDO AO NOSSO CANTINHO DOS PERFUMES! AQUI É ONDE A MÁGICA ACONTECE E A GENTE SE ENTREGA DE CORPO E ALMA AO MUNDO DAS FRAGRÂNCIAS. NÓS SOMOS VICIADOS EM CHEIROS BONS E ACREDITAMOS QUE UM PERFUME PODE TRANSFORMAR QUALQUER MOMENTO.
+        </p>
+        <br>
+        <p>
+            <p class="seta">(</p> NESSE SITE, A GENTE QUER COMPARTILHAR TODA A NOSSA PAIXÃO POR ESSAS MARAVILHAS ENGARRAFADAS E TE OFERECER UMA SELEÇÃO DE PERFUMES QUE É DE TIRAR O FÔLEGO. TÁ TUDO ESCOLHIDO A DEDO, VIU? SÓ OS MELHORES PARA VOCÊ.
+        </p>  
+        <br>     
+        <p>
+            <p class="seta">(</p> ACREDITAMOS QUE ESCOLHER UM PERFUME É UMA COISA SUPER PESSOAL, UM JEITO DE MOSTRAR QUEM VOCÊ É. E ESTAMOS AQUI PRA TE AJUDAR A ENCONTRAR A FRAGRÂNCIA PERFEITA, AQUELA QUE VAI TE REPRESENTAR DE VERDADE. ENTÃO, NAVEGA À VONTADE E SE JOGA NESSE MUNDO CHEIO DE NOTAS INCRÍVEIS, DAS FRESCAS E FRUTADAS ATÉ AS MAIS SENSUAIS E INTENSAS.
+        </p>   
+    </section>
+
+
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="scripts.js"></script>
