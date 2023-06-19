@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import conversor 
 
 lista_primaria = []
 response = requests.get('https://rapharrp.github.io/Pods/')
@@ -43,3 +44,5 @@ for produto in produtos:
     writer._save()
 
 print("Tabela exportada para o arquivo:", arquivo_excel)
+
+conversor.converter()
